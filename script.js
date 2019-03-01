@@ -23,8 +23,6 @@ let gameStarted = false,
     playerScore = 0, 
     deck = [];
 
-
-
 hitButton.style.display = 'none';
 stayButton.style.display= 'none';
 showStatus();
@@ -113,6 +111,9 @@ function getCardNumericValue(card){
       return 10;
   }
 }
+//functions----------------------
+
+
 
 function getScore(cardArray){
   let score = 0;
@@ -211,6 +212,9 @@ function showStatus(){
 function getNextCard() {
   return deck.shift();
 }
+for (let i = 0; i < deck.length; i++) {
+  //console.log(deck[i]);
+}
 
 
 //let deck = createDeck();
@@ -224,9 +228,6 @@ function getNextCard() {
 }*/
 
 
-for (let i = 0; i < deck.length; i++) {
-  //console.log(deck[i]);
-}
 
 
 
